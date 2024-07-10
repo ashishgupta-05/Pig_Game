@@ -171,4 +171,31 @@ main {
 }
 
 
+@media (max-width: 600px) {
+  .player {
+      padding: 10px;
+  }
+
+  .name {
+      font-size: 20px;
+  }
+
+  .score {
+      font-size: 30px;
+  }
+
+  .current-score {
+      font-size: 20px;
+  }
+
+  .btn {
+      padding: 10px;
+      font-size: 14px;
+      margin: 3px;
+  }
+
+  .dice {
+      width: 60px; /* Further reduce size for smaller screens */
+  }
+}
 
